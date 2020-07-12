@@ -1,0 +1,13 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        386M     0  386M   0% /dev
+tmpfs           408M     0  408M   0% /dev/shm
+tmpfs           408M   21M  388M   6% /run
+tmpfs           408M     0  408M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.8G  8.3G  18% /
+tmpfs            82M     0   82M   0% /run/user/1000
+              total        used        free      shared  buff/cache   available
+Mem:              0           0           0           0           0           0
+Swap:             0           0           0
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 192484   1044 466200    0    0   213   236   97  134  4  1 94  0  0

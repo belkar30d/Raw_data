@@ -1,0 +1,4 @@
+df -h
+free -g
+vmstat
+sysstat

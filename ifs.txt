@@ -1,0 +1,11 @@
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check
+this	is	test	file	for	IFS	check

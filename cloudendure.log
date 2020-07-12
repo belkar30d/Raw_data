@@ -1,0 +1,375 @@
+CE
+2020-07-03 11:12:12,095 INFO       Installer called with the following switches: [{'token': '****', 'no_prompt': True}] [installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,096 INFO       Starting installer                                                               [is_windows: False, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,096 INFO       The installation of the CloudEndure Agent has started                            [installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,096 INFO       Connecting to management                                                         [url: https://console.cloudendure.com/api/v5/, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,096 INFO       Starting Connecting to CloudEndure Console                                       [url: https://console.cloudendure.com/api/v5/, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,152 DEBUG      remote response                                                                  [action: POST, reason: OK, url: https://console.cloudendure.com/api/v5/login, status_code: 200, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,153 DEBUG      installer response headers                                                       [action: POST, full_message: {'X-CloudEndure-Version': 'v5', 'Content-Length': '480', 'Strict-Transport-Security': 'max-age=15768000', 'X-Content-Type-Options': 'nosniff', 'Set-Cookie': 'XSRF-TOKEN="o2tXlbutPBe/gXVxoTU7mg==\\012"; Secure; Path=/, session=.eJxdzl1rgzAUBuC_Ms61lPhRpEJh0HbSUhVLtyyOIVHTLn7EYqKzlv73pTB2scvznveF5wY0z9teqLTveQHeDZ4y8CDCWzPE8TU5blW0JtdohRApk3J_rOZkqlRSEisst47-j8G0q-BuAL1wmV5YlzZc9IqBZyFkQE2lSmmu-MBSxRsdm_OF7bqOa1sz00GuaxugVw2XkrdCgvfxa4hxUWfisMtEiAgeJdw_dbNrS5b_0xLrUAV-PEZ4o4K1lmltOAXOHmthSVSCN2bgEye0YhTil-ah7Rgt0lbU17Ruz1yAd6K1ZAb0knWCPpxQUKWojb65eD43lNezvG3AgIF1D6kuDHN9jrI7paqtmPjzZNMOYX_kxfshjpvXITG_MPMXr2_HQiUTWqzOyyXc7z-Yt3yK.EeCkDA.pvmHBnRsD8FXy_JO_A_N8k6HMBg; Secure; HttpOnly; Path=/', 'Expires': '0', 'Connection': 'keep-alive', 'X-XSS-Protection': '1; mode=block', 'Pragma': 'no-cache, no-cache', 'Cache-Control': 'no-cache; no-store; must-revalidate, no-cache; no-store; must-revalidate', 'Date': 'Fri, 03 Jul 2020 11:12:12 GMT', 'X-Frame-Options': 'DENY', 'Content-Type': 'application/json'}, headers: {'X-CloudEndure-Version': 'v5', 'Content-Length': '480', 'Strict-Transport-Security': 'max-age=15768000', 'X-Content-Type-Options': 'nosniff', 'Set-Cookie': 'XSRF-TOKEN="o2tXlbutPBe/gXVxoTU7mg==\\012"; Secure; Path=/, session=.eJxdzl1rgzAUBuC_Ms61lPhRpEJh0HbSUhVLtyyOIVHTLn7EYqKzlv73pTB2scvznveF5wY0z9teqLTveQHeDZ4y8CDCWzPE8TU5blW0JtdohRApk3J_rOZkqlRSEisst47-j8G0q-BuAL1wmV5YlzZc9IqBZyFkQE2lSmmu-MBSxRsdm_OF7bqOa1sz00GuaxugVw2XkrdCgvfxa4hxUWfisMtEiAgeJdw_dbNrS5b_0xLrUAV-PEZ4o4K1lmltOAXOHmthSVSCN2bgEye0YhTil-ah7Rgt0lbU17Ruz1yAd6K1ZAb0knWCPpxQUKWojb65eD43lNezvG3AgIF1D6kuDHN9jrI7paqtmPjzZNMOYX_kxfshjpvXITG_MPMXr2_HQiUTWqzOyyXc7z-Yt3yK.EeCkDA.pvmHBnRsD8FXy_JO_A_N8k6HMBg; Secure; HttpOnly; Path=/', 'Expires': '0', 'Connection': 'keep-alive', 'X-XSS-Protection': '1; mode=block', 'Pragma': 'no-cache, no-cache', 'Cache-Control': 'no-cache; no-store; must-revalidate, no-cache; no-store; must-revalidate', 'Date': 'Fri, 03 Jul 2020 11:12:12 GMT', 'X-Frame-Options': 'DENY', 'Content-Type': 'application/json'}, url: https://console.cloudendure.com/api/v5/login, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,154 INFO       Finished Connecting to CloudEndure Console                                       [url: https://console.cloudendure.com/api/v5/, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,154 DEBUG      remote request                                                                   [username: datta30win@gmail.com, url: https://console.cloudendure.com/api/v5/projects, data: {}, full_message: {}, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,221 DEBUG      remote response                                                                  [username: datta30win@gmail.com, url: https://console.cloudendure.com/api/v5/projects, status_code: 200, reason: OK, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,225 DEBUG      installer request                                                                [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: http://169.254.169.254/latest/meta-data/instance-id, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,227 DEBUG      installer response                                                               [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: http://169.254.169.254/latest/meta-data/instance-id, status_code: 200, data: i-02d5b10d7891d9d65, reason: OK, full_message: i-02d5b10d7891d9d65, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,228 DEBUG      installer request                                                                [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: http://169.254.169.254/latest/meta-data/instance-id, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,230 DEBUG      installer response                                                               [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: http://169.254.169.254/latest/meta-data/instance-id, status_code: 200, data: i-02d5b10d7891d9d65, reason: OK, full_message: i-02d5b10d7891d9d65, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,231 INFO       Running standard installation                                                    [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,231 DEBUG      remote request                                                                   [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/logInstallStart, data: {'machine_cloud_id': 'i-02d5b10d7891d9d65', 'project_uuid': u'cdd0d19a-0664-4738-b8f6-ea50f87d45af'}, full_message: {'machine_cloud_id': 'i-02d5b10d7891d9d65', 'project_uuid': u'cdd0d19a-0664-4738-b8f6-ea50f87d45af'}, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,282 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/logInstallStart, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,337 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/getUserDetails, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,406 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/getRegionLimitations, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,412 INFO       Kernel is 4.18.0-193.6.3.el8_2.x86_64                                            [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,413 DEBUG      installer request                                                                [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: http://169.254.169.254/latest/meta-data/placement/availability-zone, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:12,416 DEBUG      installer response                                                               [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: http://169.254.169.254/latest/meta-data/placement/availability-zone, status_code: 200, data: us-east-1e, reason: OK, full_message: us-east-1e, action: GET, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,016 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/createMachineIfCanBeProtected, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,016 INFO       Got new agent_name                                                               [username: datta30win@gmail.com, full_message: hsUd2gmL88H0Tohcwa7HqWhOOl8|9b55d2e2-8628-4b6c-99c9-f66628e2132d, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, agent_name: hsUd2gmL88H0Tohcwa7HqWhOOl8|9b55d2e2-8628-4b6c-99c9-f66628e2132d, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,017 INFO       All disks for replication were successfully identified                           [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,017 INFO       Starting Downloading CloudEndure Agent                                           [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,142 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/agent/downloadPrecompiledDriver, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,192 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/agent/downloadPrecompiledCommander, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:13,830 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/agent/downloadInstaller, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:15,873 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/downloadKeystore, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:15,947 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/agent/downloadConfig, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:15,965 INFO       Downloading migration script                                                     [username: datta30win@gmail.com, full_message: {'machine_name': 'ip-172-31-59-75.ec2.internal', 'python_version': '2.7.12', 'distribution_version': '8.2', 'distribution_name': 'Red Hat Enterprise Linux', 'distribution_id': 'Ootpa', 'system': 'Linux', 'machine': 'x86_64', 'platform': 'Linux-4.18.0-193.6.3.el8_2.x86_64-x86_64-with-redhat-8.2-Ootpa', 'version': '#1 SMP Mon Jun 1 20:24:55 UTC 2020', 'architecture': '64bit', 'release': '4.18.0-193.6.3.el8_2.x86_64', 'processor': 'x86_64'}, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, platform_details: {'machine_name': 'ip-172-31-59-75.ec2.internal', 'python_version': '2.7.12', 'distribution_version': '8.2', 'distribution_name': 'Red Hat Enterprise Linux', 'distribution_id': 'Ootpa', 'system': 'Linux', 'machine': 'x86_64', 'platform': 'Linux-4.18.0-193.6.3.el8_2.x86_64-x86_64-with-redhat-8.2-Ootpa', 'version': '#1 SMP Mon Jun 1 20:24:55 UTC 2020', 'architecture': '64bit', 'release': '4.18.0-193.6.3.el8_2.x86_64', 'processor': 'x86_64'}, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,018 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/agent/downloadMigrationScript, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,018 INFO       Finished Downloading CloudEndure Agent                                           [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,022 INFO       Kernel is 4.18.0-193.6.3.el8_2.x86_64                                            [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,022 INFO       about to report installation details: {'platform_string': 'Linux_4.18.0-193.6.3.el8_2.x86_64'} [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,065 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/agent/updateMachineInstallationInfo, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,066 DEBUG      running command                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, full_message: ['lspci'], command: lspci, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,100 DEBUG      command finished                                                                 [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, stdout: 00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+00:01.1 IDE interface: Intel Corporation 82371SB PIIX3 IDE [Natoma/Triton II]
+00:01.3 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 01)
+00:02.0 VGA compatible controller: Cirrus Logic GD 5446
+00:03.0 Unassigned class [ff80]: XenSource, Inc. Xen Platform Device (rev 01)
+, exit_code: 0, full_message: stdout: 00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+00:01.1 IDE interface: Intel Corporation 82371SB PIIX3 IDE [Natoma/Triton II]
+00:01.3 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 01)
+00:02.0 VGA compatible controller: Cirrus Logic GD 5446
+00:03.0 Unassigned class [ff80]: XenSource, Inc. Xen Platform Device (rev 01)
+, command: lspci, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,100 INFO       Starting Installing CloudEndure Agent                                            [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,101 DEBUG      Saving blob                                                                      [username: datta30win@gmail.com, full_message: /tmp/tmpMDktgx, blob_name: /tmp/tmpMDktgx, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, blob_size_bytes: 61827150, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,125 DEBUG      running command                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, args: ['u+x', '/tmp/tmpMDktgx'], full_message: ['chmod', 'u+x', '/tmp/tmpMDktgx'], command: chmod, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,129 DEBUG      command finished                                                                 [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, args: ['u+x', '/tmp/tmpMDktgx'], exit_code: 0, full_message: , command: chmod, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:16,130 DEBUG      running command                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, args: ['./install_agent', '--install_path', '/var/lib/cloudendure', '--target_cloud', 'AWS', '--config_b64', 'Q29udmVyc2lvblNlcnZpY2VWZXJzaW9uPTEKYWNjb3VudFV1aWQ9OWI1NWQyZTItODYyOC00YjZjLTk5YzktZjY2NjI4ZTIxMzJkCmRpc2tSZWFkUmF0ZVBlclNlYz0wCmVuY3J5cHRpb25LZXk9NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KaW5zdGFsbGF0aW9uSW5zdGFuY2VJZD1pLTAyZDViMTBkNzg5MWQ5ZDY1CmxvZ0xldmVsPUlORk8KbG9nZ2luZ0hvc3Q9Y29uc29sZS5jbG91ZGVuZHVyZS5jb20KbG9nZ2luZ0ludGVydmFsPTYwCmxvZ3NUb0NvbGxlY3Q9Y2UuZG1lc2cubG9nLG1pZ3JhdGVfc2NyaXB0LmxvZyx1cGdyYWRlX2xvZy5vdXQsdXBncmFkZV9sb2cuZXJyLGphdmFfZXJyb3IubG9nLGpyZV9vdXRwdXQubG9nLHBvc3RfaW5zdGFsbF9taWdyYXRpb24ubG9nCm1hbmFnZW1lbnRBdXRoVG9rZW49NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KbWFuYWdlbWVudEhvc3Q9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbQptZXRhZGF0YVVybD1odHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRhLWRhdGEvCm1vbml0b3JpbmdVcmw9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbS92NS9tZXRyaWNzLwpwYXJ0aWFsU3luY0JpdG1hcFNpemU9MzE0NTcyOApyZXN1bWVCaXRtYXBTaXplPTEwNDg1NzYKc25hcHNob3RDb25maXJtUGVyaW9kPTE4MDAwMAp1c2VybmFtZT1kYXR0YTMwd2luQGdtYWlsLmNvbQo='], full_message: ['/tmp/tmpMDktgx', './install_agent', '--install_path', '/var/lib/cloudendure', '--target_cloud', 'AWS', '--config_b64', 'Q29udmVyc2lvblNlcnZpY2VWZXJzaW9uPTEKYWNjb3VudFV1aWQ9OWI1NWQyZTItODYyOC00YjZjLTk5YzktZjY2NjI4ZTIxMzJkCmRpc2tSZWFkUmF0ZVBlclNlYz0wCmVuY3J5cHRpb25LZXk9NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KaW5zdGFsbGF0aW9uSW5zdGFuY2VJZD1pLTAyZDViMTBkNzg5MWQ5ZDY1CmxvZ0xldmVsPUlORk8KbG9nZ2luZ0hvc3Q9Y29uc29sZS5jbG91ZGVuZHVyZS5jb20KbG9nZ2luZ0ludGVydmFsPTYwCmxvZ3NUb0NvbGxlY3Q9Y2UuZG1lc2cubG9nLG1pZ3JhdGVfc2NyaXB0LmxvZyx1cGdyYWRlX2xvZy5vdXQsdXBncmFkZV9sb2cuZXJyLGphdmFfZXJyb3IubG9nLGpyZV9vdXRwdXQubG9nLHBvc3RfaW5zdGFsbF9taWdyYXRpb24ubG9nCm1hbmFnZW1lbnRBdXRoVG9rZW49NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KbWFuYWdlbWVudEhvc3Q9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbQptZXRhZGF0YVVybD1odHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRhLWRhdGEvCm1vbml0b3JpbmdVcmw9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbS92NS9tZXRyaWNzLwpwYXJ0aWFsU3luY0JpdG1hcFNpemU9MzE0NTcyOApyZXN1bWVCaXRtYXBTaXplPTEwNDg1NzYKc25hcHNob3RDb25maXJtUGVyaW9kPTE4MDAwMAp1c2VybmFtZT1kYXR0YTMwd2luQGdtYWlsLmNvbQo='], command: /tmp/tmpMDktgx, command_type: install_agent, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:25,630 ERROR      command failed                                                                   [username: datta30win@gmail.com, exception: None, stdout: 
+Self Extracting Installer
+
+./
+./LICENSE
+./AgentDriver/
+./AgentDriver/ioctlcmd.c
+./AgentDriver/src/
+./AgentDriver/src/linux/
+./AgentDriver/src/linux/UserspaceCommunicator.h
+./AgentDriver/src/linux/AgentDriver.h
+./AgentDriver/src/linux/AgentDriverMain.c
+./AgentDriver/src/linux/KernelTracer.h
+./AgentDriver/src/linux/UserspaceCommunicator.c
+./AgentDriver/src/linux/KernelTracer.c
+./AgentDriver/src/common/
+./AgentDriver/src/common/volume_bitset.c
+./AgentDriver/src/common/TraceBuffers.h
+./AgentDriver/src/common/windows/
+./AgentDriver/src/common/windows/printk.h
+./AgentDriver/src/common/windows/logging.h
+./AgentDriver/src/common/windows/stdint.h
+./AgentDriver/src/common/windows/spinlock.h
+./AgentDriver/src/common/bitset.h
+./AgentDriver/src/common/ce_types_usr.h
+./AgentDriver/src/common/bitset.c
+./AgentDriver/src/common/TraceBuffers.c
+./AgentDriver/src/common/volume_bitset.h
+./AgentDriver/src/common/ce_types.h
+./AgentDriver/Makefile
+./VERSION
+./runAgent.sh
+./commands.sh
+./insertDriver.sh
+./Commons.jar
+./update_onprem_volumes
+./google-rhui-client-rhel6-6.3-1.noarch.rpm
+./gce_download_linux.sh
+./get_onprem_instance_id
+./ce-agent
+./run_linux_migration_scripts_periodically
+./stopAgent.sh
+./removeDriver.sh
+./CloudEndure_Agent.sh
+./CEAgent.jar
+./testProcess.sh
+./External/
+./External/jackson-core-2.9.0.jar
+./External/joda-time-2.8.1.jar
+./External/guava-22.0.jar
+./External/jna-4.0.0.jar
+./External/httpcore-4.4.4.jar
+./External/commons-logging-1.1.3.jar
+./External/httpclient-4.5.2.jar
+./External/lz4-1.2.0.jar
+./External/sqlite-jdbc-3.18.0.jar
+./External/protobuf-java-3.2.0.jar
+./External/jackson-annotations-2.9.0.jar
+./External/aws-java-sdk-core-1.11.213.jar
+./External/aws-java-sdk-s3-1.11.213.jar
+./External/ion-java-1.0.2.jar
+./External/commons-io-2.6.jar
+./External/gson-2.8.2.jar
+./External/aws-java-sdk-kms-1.11.213.jar
+./External/jackson-databind-2.9.8.jar
+./External/jersey-bundle-1.17.1.jar
+./agent.config
+./tailer
+./google-rhui-client-rhel7-6.3-1.noarch.rpm
+./python-setuptools-0.6c11-8.1.x86_64.rpm
+./google-compute-engine-init-20170829-2.1.x86_64.rpm
+./install_agent
+./nvme_device_mapper
+./ce-convert
+/bin/which
+/bin/yum
+Last metadata expiration check: 0:14:15 ago on Fri 03 Jul 2020 10:58:04 AM UTC.
+Package make-1:4.2.1-10.el8.x86_64 is already installed.
+Package gcc-8.3.1-5.el8.x86_64 is already installed.
+Package kernel-devel-4.18.0-193.6.3.el8_2.x86_64 is already installed.
+Package kernel-headers-4.18.0-193.6.3.el8_2.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 0:14:17 ago on Fri 03 Jul 2020 10:58:04 AM UTC.
+Package kernel-devel-4.18.0-193.6.3.el8_2.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 0:14:19 ago on Fri 03 Jul 2020 10:58:04 AM UTC.
+Package perl-4:5.26.3-416.el8.x86_64 is already installed.
+Package make-1:4.2.1-10.el8.x86_64 is already installed.
+Package tar-2:1.30-4.el8.x86_64 is already installed.
+Package gawk-4.2.1-1.el8.x86_64 is already installed.
+Package rpm-4.14.2-37.el8.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+/bin/gcc
+make -C /lib/modules/4.18.0-193.6.3.el8_2.x86_64/build M=/tmp/tmp.EH42Q8x4Dl/AgentDriver modules
+make[1]: Entering directory '/usr/src/kernels/4.18.0-193.6.3.el8_2.x86_64'
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-193.6.3.el8_2.x86_64'
+--- installing new driver
+--- Downloading java
+Downloading JRE from https://console.cloudendure.com/v5/static/jre-amazon-corretto-8.222.10.1-linux-x64.tar.gz
+--- Checking all tools are available
+running: './commands.sh'
+retcode: 0
+--- Stopping old client
+running: '/var/lib/cloudendure/stopAgent.sh '
+retcode: 32512
+--- Installing CloundEndure agent
+--- Getting build essentials for compiling kernel module
+running: 'which which'
+retcode: 0
+running: 'which zypper'
+retcode: 256
+running: 'which apt-get'
+retcode: 256
+running: 'which yum'
+retcode: 0
+running: 'yum -y --disableexcludes=main install make gcc kernel-devel-4.18.0-193.6.3.el8_2.x86_64 kernel-headers-4.18.0-193.6.3.el8_2.x86_64'
+retcode: 0
+running: 'yum -y --disableexcludes=main install kernel-devel'
+retcode: 0
+running: 'yum -y install perl make tar gawk rpm'
+retcode: 0
+running: 'which gcc'
+retcode: 0
+Build essentials returned with code None
+--- Building software
+running: 'which zypper'
+retcode: 256
+running: 'make'
+retcode: 512
+Unexpected error while making agent driver! Are kernel linux headers installed correctly?
+Installation returned with code 1
+Installation failed due to unspecified error:
+, stderr: sh: /var/lib/cloudendure/stopAgent.sh: No such file or directory
+which: no zypper in (/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin:/usr/sbin)
+which: no apt-get in (/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin:/usr/sbin)
+which: no zypper in (/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin:/usr/sbin)
+Makefile:978: *** "Cannot generate ORC metadata for CONFIG_UNWINDER_ORC=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel".  Stop.
+make: *** [Makefile:33: AgentDriver] Error 2
+Traceback (most recent call last):
+  File "<string>", line 727, in main
+SystemExit: 1
+, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, args: ['./install_agent', '--install_path', '/var/lib/cloudendure', '--target_cloud', 'AWS', '--config_b64', 'Q29udmVyc2lvblNlcnZpY2VWZXJzaW9uPTEKYWNjb3VudFV1aWQ9OWI1NWQyZTItODYyOC00YjZjLTk5YzktZjY2NjI4ZTIxMzJkCmRpc2tSZWFkUmF0ZVBlclNlYz0wCmVuY3J5cHRpb25LZXk9NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KaW5zdGFsbGF0aW9uSW5zdGFuY2VJZD1pLTAyZDViMTBkNzg5MWQ5ZDY1CmxvZ0xldmVsPUlORk8KbG9nZ2luZ0hvc3Q9Y29uc29sZS5jbG91ZGVuZHVyZS5jb20KbG9nZ2luZ0ludGVydmFsPTYwCmxvZ3NUb0NvbGxlY3Q9Y2UuZG1lc2cubG9nLG1pZ3JhdGVfc2NyaXB0LmxvZyx1cGdyYWRlX2xvZy5vdXQsdXBncmFkZV9sb2cuZXJyLGphdmFfZXJyb3IubG9nLGpyZV9vdXRwdXQubG9nLHBvc3RfaW5zdGFsbF9taWdyYXRpb24ubG9nCm1hbmFnZW1lbnRBdXRoVG9rZW49NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KbWFuYWdlbWVudEhvc3Q9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbQptZXRhZGF0YVVybD1odHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRhLWRhdGEvCm1vbml0b3JpbmdVcmw9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbS92NS9tZXRyaWNzLwpwYXJ0aWFsU3luY0JpdG1hcFNpemU9MzE0NTcyOApyZXN1bWVCaXRtYXBTaXplPTEwNDg1NzYKc25hcHNob3RDb25maXJtUGVyaW9kPTE4MDAwMAp1c2VybmFtZT1kYXR0YTMwd2luQGdtYWlsLmNvbQo='], exit_code: 1, full_message: stdout: 
+Self Extracting Installer
+
+./
+./LICENSE
+./AgentDriver/
+./AgentDriver/ioctlcmd.c
+./AgentDriver/src/
+./AgentDriver/src/linux/
+./AgentDriver/src/linux/UserspaceCommunicator.h
+./AgentDriver/src/linux/AgentDriver.h
+./AgentDriver/src/linux/AgentDriverMain.c
+./AgentDriver/src/linux/KernelTracer.h
+./AgentDriver/src/linux/UserspaceCommunicator.c
+./AgentDriver/src/linux/KernelTracer.c
+./AgentDriver/src/common/
+./AgentDriver/src/common/volume_bitset.c
+./AgentDriver/src/common/TraceBuffers.h
+./AgentDriver/src/common/windows/
+./AgentDriver/src/common/windows/printk.h
+./AgentDriver/src/common/windows/logging.h
+./AgentDriver/src/common/windows/stdint.h
+./AgentDriver/src/common/windows/spinlock.h
+./AgentDriver/src/common/bitset.h
+./AgentDriver/src/common/ce_types_usr.h
+./AgentDriver/src/common/bitset.c
+./AgentDriver/src/common/TraceBuffers.c
+./AgentDriver/src/common/volume_bitset.h
+./AgentDriver/src/common/ce_types.h
+./AgentDriver/Makefile
+./VERSION
+./runAgent.sh
+./commands.sh
+./insertDriver.sh
+./Commons.jar
+./update_onprem_volumes
+./google-rhui-client-rhel6-6.3-1.noarch.rpm
+./gce_download_linux.sh
+./get_onprem_instance_id
+./ce-agent
+./run_linux_migration_scripts_periodically
+./stopAgent.sh
+./removeDriver.sh
+./CloudEndure_Agent.sh
+./CEAgent.jar
+./testProcess.sh
+./External/
+./External/jackson-core-2.9.0.jar
+./External/joda-time-2.8.1.jar
+./External/guava-22.0.jar
+./External/jna-4.0.0.jar
+./External/httpcore-4.4.4.jar
+./External/commons-logging-1.1.3.jar
+./External/httpclient-4.5.2.jar
+./External/lz4-1.2.0.jar
+./External/sqlite-jdbc-3.18.0.jar
+./External/protobuf-java-3.2.0.jar
+./External/jackson-annotations-2.9.0.jar
+./External/aws-java-sdk-core-1.11.213.jar
+./External/aws-java-sdk-s3-1.11.213.jar
+./External/ion-java-1.0.2.jar
+./External/commons-io-2.6.jar
+./External/gson-2.8.2.jar
+./External/aws-java-sdk-kms-1.11.213.jar
+./External/jackson-databind-2.9.8.jar
+./External/jersey-bundle-1.17.1.jar
+./agent.config
+./tailer
+./google-rhui-client-rhel7-6.3-1.noarch.rpm
+./python-setuptools-0.6c11-8.1.x86_64.rpm
+./google-compute-engine-init-20170829-2.1.x86_64.rpm
+./install_agent
+./nvme_device_mapper
+./ce-convert
+/bin/which
+/bin/yum
+Last metadata expiration check: 0:14:15 ago on Fri 03 Jul 2020 10:58:04 AM UTC.
+Package make-1:4.2.1-10.el8.x86_64 is already installed.
+Package gcc-8.3.1-5.el8.x86_64 is already installed.
+Package kernel-devel-4.18.0-193.6.3.el8_2.x86_64 is already installed.
+Package kernel-headers-4.18.0-193.6.3.el8_2.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 0:14:17 ago on Fri 03 Jul 2020 10:58:04 AM UTC.
+Package kernel-devel-4.18.0-193.6.3.el8_2.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 0:14:19 ago on Fri 03 Jul 2020 10:58:04 AM UTC.
+Package perl-4:5.26.3-416.el8.x86_64 is already installed.
+Package make-1:4.2.1-10.el8.x86_64 is already installed.
+Package tar-2:1.30-4.el8.x86_64 is already installed.
+Package gawk-4.2.1-1.el8.x86_64 is already installed.
+Package rpm-4.14.2-37.el8.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+/bin/gcc
+make -C /lib/modules/4.18.0-193.6.3.el8_2.x86_64/build M=/tmp/tmp.EH42Q8x4Dl/AgentDriver modules
+make[1]: Entering directory '/usr/src/kernels/4.18.0-193.6.3.el8_2.x86_64'
+make[1]: Leaving directory '/usr/src/kernels/4.18.0-193.6.3.el8_2.x86_64'
+--- installing new driver
+--- Downloading java
+Downloading JRE from https://console.cloudendure.com/v5/static/jre-amazon-corretto-8.222.10.1-linux-x64.tar.gz
+--- Checking all tools are available
+running: './commands.sh'
+retcode: 0
+--- Stopping old client
+running: '/var/lib/cloudendure/stopAgent.sh '
+retcode: 32512
+--- Installing CloundEndure agent
+--- Getting build essentials for compiling kernel module
+running: 'which which'
+retcode: 0
+running: 'which zypper'
+retcode: 256
+running: 'which apt-get'
+retcode: 256
+running: 'which yum'
+retcode: 0
+running: 'yum -y --disableexcludes=main install make gcc kernel-devel-4.18.0-193.6.3.el8_2.x86_64 kernel-headers-4.18.0-193.6.3.el8_2.x86_64'
+retcode: 0
+running: 'yum -y --disableexcludes=main install kernel-devel'
+retcode: 0
+running: 'yum -y install perl make tar gawk rpm'
+retcode: 0
+running: 'which gcc'
+retcode: 0
+Build essentials returned with code None
+--- Building software
+running: 'which zypper'
+retcode: 256
+running: 'make'
+retcode: 512
+Unexpected error while making agent driver! Are kernel linux headers installed correctly?
+Installation returned with code 1
+Installation failed due to unspecified error:
+
+
+stderr: sh: /var/lib/cloudendure/stopAgent.sh: No such file or directory
+which: no zypper in (/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin:/usr/sbin)
+which: no apt-get in (/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin:/usr/sbin)
+which: no zypper in (/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/sbin:/usr/sbin)
+Makefile:978: *** "Cannot generate ORC metadata for CONFIG_UNWINDER_ORC=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel".  Stop.
+make: *** [Makefile:33: AgentDriver] Error 2
+Traceback (most recent call last):
+  File "<string>", line 727, in main
+SystemExit: 1
+, command: /tmp/tmpMDktgx, command_type: install_agent, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:25,632 ERROR      Exception during agent installation                                             
+Traceback (most recent call last):
+  File "<string>", line 503, in _run_install_agent_command
+  File "installer_utils/commands.py", line 155, in run
+RunException: (['/tmp/tmpMDktgx', './install_agent', '--install_path', '/var/lib/cloudendure', '--target_cloud', 'AWS', '--config_b64', 'Q29udmVyc2lvblNlcnZpY2VWZXJzaW9uPTEKYWNjb3VudFV1aWQ9OWI1NWQyZTItODYyOC00YjZjLTk5YzktZjY2NjI4ZTIxMzJkCmRpc2tSZWFkUmF0ZVBlclNlYz0wCmVuY3J5cHRpb25LZXk9NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KaW5zdGFsbGF0aW9uSW5zdGFuY2VJZD1pLTAyZDViMTBkNzg5MWQ5ZDY1CmxvZ0xldmVsPUlORk8KbG9nZ2luZ0hvc3Q9Y29uc29sZS5jbG91ZGVuZHVyZS5jb20KbG9nZ2luZ0ludGVydmFsPTYwCmxvZ3NUb0NvbGxlY3Q9Y2UuZG1lc2cubG9nLG1pZ3JhdGVfc2NyaXB0LmxvZyx1cGdyYWRlX2xvZy5vdXQsdXBncmFkZV9sb2cuZXJyLGphdmFfZXJyb3IubG9nLGpyZV9vdXRwdXQubG9nLHBvc3RfaW5zdGFsbF9taWdyYXRpb24ubG9nCm1hbmFnZW1lbnRBdXRoVG9rZW49NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KbWFuYWdlbWVudEhvc3Q9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbQptZXRhZGF0YVVybD1odHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRhLWRhdGEvCm1vbml0b3JpbmdVcmw9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbS92NS9tZXRyaWNzLwpwYXJ0aWFsU3luY0JpdG1hcFNpemU9MzE0NTcyOApyZXN1bWVCaXRtYXBTaXplPTEwNDg1NzYKc25hcHNob3RDb25maXJtUGVyaW9kPTE4MDAwMAp1c2VybmFtZT1kYXR0YTMwd2luQGdtYWlsLmNvbQo='], 1) [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, return_code: 1, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:25,633 ERROR      Failed Installing CloudEndure Agent                                             
+Traceback (most recent call last):
+  File "<string>", line 649, in run_agent_installer
+  File "<string>", line 466, in install_agent
+  File "<string>", line 518, in _run_install_agent_command
+  File "<string>", line 386, in handle_install_agent_error
+RunException: (['/tmp/tmpMDktgx', './install_agent', '--install_path', '/var/lib/cloudendure', '--target_cloud', 'AWS', '--config_b64', 'Q29udmVyc2lvblNlcnZpY2VWZXJzaW9uPTEKYWNjb3VudFV1aWQ9OWI1NWQyZTItODYyOC00YjZjLTk5YzktZjY2NjI4ZTIxMzJkCmRpc2tSZWFkUmF0ZVBlclNlYz0wCmVuY3J5cHRpb25LZXk9NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KaW5zdGFsbGF0aW9uSW5zdGFuY2VJZD1pLTAyZDViMTBkNzg5MWQ5ZDY1CmxvZ0xldmVsPUlORk8KbG9nZ2luZ0hvc3Q9Y29uc29sZS5jbG91ZGVuZHVyZS5jb20KbG9nZ2luZ0ludGVydmFsPTYwCmxvZ3NUb0NvbGxlY3Q9Y2UuZG1lc2cubG9nLG1pZ3JhdGVfc2NyaXB0LmxvZyx1cGdyYWRlX2xvZy5vdXQsdXBncmFkZV9sb2cuZXJyLGphdmFfZXJyb3IubG9nLGpyZV9vdXRwdXQubG9nLHBvc3RfaW5zdGFsbF9taWdyYXRpb24ubG9nCm1hbmFnZW1lbnRBdXRoVG9rZW49NWMzZWFteDhLMEFKQnIySUJ2dHF3WTBLVk56SUN0OWJoekRmQWJoRk0xcz0KbWFuYWdlbWVudEhvc3Q9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbQptZXRhZGF0YVVybD1odHRwOi8vMTY5LjI1NC4xNjkuMjU0L2xhdGVzdC9tZXRhLWRhdGEvCm1vbml0b3JpbmdVcmw9aHR0cHM6Ly9jb25zb2xlLmNsb3VkZW5kdXJlLmNvbS92NS9tZXRyaWNzLwpwYXJ0aWFsU3luY0JpdG1hcFNpemU9MzE0NTcyOApyZXN1bWVCaXRtYXBTaXplPTEwNDg1NzYKc25hcHNob3RDb25maXJtUGVyaW9kPTE4MDAwMAp1c2VybmFtZT1kYXR0YTMwd2luQGdtYWlsLmNvbQo='], 1) [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:25,634 DEBUG      remote request                                                                   [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/logInstallFailed, data: {'machine_cloud_id': 'i-02d5b10d7891d9d65', 'project_uuid': u'cdd0d19a-0664-4738-b8f6-ea50f87d45af'}, full_message: {'machine_cloud_id': 'i-02d5b10d7891d9d65', 'project_uuid': u'cdd0d19a-0664-4738-b8f6-ea50f87d45af'}, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:25,684 DEBUG      remote response                                                                  [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, url: https://console.cloudendure.com/api/v5/logInstallFailed, status_code: 200, reason: OK, action: POST, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
+2020-07-03 11:12:25,685 ERROR      Installation was not finished successfully                                      
+Traceback (most recent call last):
+  File "<string>", line 1294, in _main
+  File "<string>", line 1070, in main
+  File "<string>", line 919, in run_installation_standard
+  File "<string>", line 661, in run_agent_installer
+Error: Installation failed [username: datta30win@gmail.com, project_uuid: cdd0d19a-0664-4738-b8f6-ea50f87d45af, user_uuid: f8609c77-d00d-4504-bda8-5ee1a70b8aad, account_uuid: 9b55d2e2-8628-4b6c-99c9-f66628e2132d, installation_id: 22de57a7-f397-4e99-a509-cce23df22bb7]
