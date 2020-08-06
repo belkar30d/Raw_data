@@ -1,0 +1,1000 @@
+   34  vim httpdcode.sh 
+   35  bash httpdcode.sh 
+   36  vim httpdcode.sh 
+   37  ls
+   38  vim httpdcode.sh 
+   39  bash httpdcode.sh 
+   40  vim httpdcode.sh 
+   41  bash httpdcode.sh 
+   42  man rm
+   43  man touch
+   44  ll
+   45  cd /opt/
+   46  ll
+   47  cd /opt/
+   48  mkdir script
+   49  cd script/
+   50  ll
+   51  cd ..
+   52  ll
+   53  egrep ^# httpdcode.sh 
+   54  egrep ^# httpdcode.sh | rm -rf
+   55  egrep ^# httpdcode.sh 
+   56  egrep ^# httpdcode.sh| xrage rm  
+   57  egrep ^# httpdcode.sh| xarags rm  
+   58  egrep ^# httpdcode.sh| xargs rm  
+   59  egrep ^# httpdcode.sh| xargs rm  -rf
+   60  egrep ^# httpdcode.sh
+   61  egrep ^# httpdcode.sh| xargs dd
+   62  sed -i '/^#/d' httpdcode.sh 
+   63  egrep ^# httpdcode.sh| xargs dd
+   64  egrep ^# httpdcode.sh
+   65  vim httpdcode.sh 
+   66  bash httpdcode.sh 
+   67  vim httpdcode.sh 
+   68  bash httpdcode.sh 
+   69  vim httpdcode.sh 
+   70  bash httpdcode.sh 
+   71  vim httpdcode.sh 
+   72  bash httpdcode.sh
+   73  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/httpd.log | sort | uniq -c
+   74  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log | sort | uniq -c
+   75  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log | sort 
+   76  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log | sort | uniq -c
+   77  egrep "[0-9]\{8\}
+   78  " /var/log/httpd/access_log
+   79  egre "[0-9]\{4\}" /var/log/httpd/access_log
+   80  egrep "[0-9]\{4\}" /var/log/httpd/access_log
+   81  egrep "[0-9]8{4\}" /var/log/httpd/access_log
+   82  egrep "[0-9]\{8\}" /var/log/httpd/access_log
+   83  egrep "[0-9]\{8\}/" /var/log/httpd/access_log
+   84  egrep "[0-9]\{8\}
+   85  " /var/log/httpd/access_log
+   86  egrep "[0-9]\{8\}" /var/log/httpd/access_log
+   87  egrep "[0-9]\{4\}
+   88  " /var/log/httpd/access_log
+   89  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log
+   90  grep -o "[0-9]\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log
+   91  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log
+   92  grep -o "[0-9]+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log
+   93  grep -o "[0-9].+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log
+   94  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log
+   95  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log |uniq -c
+   96  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log |uniq -c | aws '{print  $9}'
+   97  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log |uniq -c | awk '{print  $9}'
+   98  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" httpd.log | sort | uniq -c | sort -n
+   99  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log | sort | uniq -c | sort -n
+  100  grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" /var/log/httpd/access_log  | uniq -c | sort -n
+  101  cat /var/log/httpd/access_log
+  102  awk '{print $9}' /var/log/httpd/access_log
+  103  awk '{print $1, $9}' /var/log/httpd/access_log
+  104  awk '{print $1, $9}' /var/log/httpd/access_log | uniq -c
+  105  awk '{print $1, $9}' /var/log/httpd/access_log | uniq -c | sort -n
+  106  awk '{print $1, $9}' /var/log/httpd/access_log | uniq -c | sort -r
+  107  cat /var/log/httpd/access_log
+  108  cd /opt/script/
+  109  ll
+  110  git --version
+  111  yum install git
+  112  git --version
+  113  git config --global user.name "Dattatray Belkar"
+  114  git config --global user.email "belkar30d@gmail.com"
+  115  git config --list
+  116  git status
+  117  cd ..
+  118  git init
+  119  ll
+  120  git status
+  121  git add
+  122  git add .
+  123  git status
+  124  git commit -m " this test sheel script"
+  125  git status
+  126  git remote add origin git@github.com:belkar30d/Shell_Script.git
+  127  git push -u origin master
+  128  git remote add origin git@github.com:belkar30d/Shell_Script.git
+  129  git push -u origin master
+  130  cd script/
+  131  vim ifthen.sh
+  132  bash ifthen.sh 
+  133  cat ifthen.sh
+  134  touch /opt/script/test.txt
+  135  cat ifthen.sh
+  136  bash ifthen.sh 
+  137  vim ifthen.sh
+  138  bash ifthen.sh 
+  139  vim ifthen.sh
+  140  bash ifthen.sh 
+  141  bash ifthen.sh df -h
+  142  bash ifthen.sh 
+  143  vim ifthen.sh
+  144  bash ifthen.sh df -h
+  145  vim ifthen.sh
+  146  bash ifthen.sh df -h
+  147  vim ifthen.sh
+  148  bash ifthen.sh df -h
+  149  vim ifthen.sh
+  150  bash ifthen.sh df -h
+  151  bash ifthen.sh 1
+  152  bash ifthen.sh
+  153  vim ifthen.sh 
+  154  bash ifthen.sh
+  155  bash ifthen.sh df -h
+  156  vim ifthen.sh 
+  157  bash ifthen.sh df -h
+  158  vim ifthen.sh 
+  159  bash ifthen.sh df -h
+  160  bash ifthen.sh "df -h"
+  161  vim ifthen.sh 
+  162  bash ifthen.sh "df -h"
+  163  bash ifthen.sh "free -g"
+  164  cd /opt/script/
+  165  git status
+  166  ll
+  167  vim ifthen.sh 
+  168  bash ifthen.sh "df -h"
+  169  bash ifthen.sh "free -g"
+  170  vim ifthen.sh 
+  171  bash ifthen.sh "df -h"
+  172  bash ifthen.sh "free -g"
+  173  bash ifthen.sh "free -m"
+  174  vim ifthen.sh 
+  175  bash ifthen.sh "free -m"
+  176  vim ifthen.sh 
+  177  bash ifthen.sh "free -m"
+  178  vim ifthen.sh 
+  179  bash ifthen.sh "free -m"
+  180  vim ifthen.sh 
+  181  bash ifthen.sh "free -m"
+  182  vim ifthen.sh 
+  183  bash ifthen.sh "free -m"
+  184  vim ifthen.sh 
+  185  bash ifthen.sh "free -m"
+  186  vim ifthen.sh 
+  187  bash ifthen.sh "free -m"
+  188  vim ifthen.sh 
+  189  bash ifthen.sh "free -m"
+  190  vim ifthen.sh 
+  191  bash ifthen.sh "free -m"
+  192  bash ifthen.sh "free -m
+  193  ;
+  194  bash ifthen.sh "free"
+  195  bash ifthen.sh "fre"
+  196  bash ifthen.sh "free -m"
+  197  vim ifthen.sh 
+  198  bash ifthen.sh "free -m"
+  199  vim ifthen.sh 
+  200  bash ifthen.sh "free -m"
+  201  vim ifthen.sh 
+  202  bash ifthen.sh "free -m"
+  203  vim ifthen.sh 
+  204  bash ifthen.sh "free -m"
+  205  vim ifthen.sh 
+  206  bash ifthen.sh "free -m"
+  207  vim ifthen.sh 
+  208  bash ifthen.sh "free -m"
+  209  a=(10,"datta",4.7,"it")
+  210  echo $a
+  211  echo ${a[2]}
+  212  echo ${a [ 2 ]}
+  213  echo ${a[*]}
+  214  echo ${a[1]}
+  215  cd /opt/script/
+  216  ll
+  217  vim dco.sh 
+  218  bash dco.sh 
+  219  vim dco.sh 
+  220  bash dco.sh 
+  221  vim dco.sh 
+  222  bash dco.sh 
+  223  vim dco.sh 
+  224  bash dco.sh 
+  225  vim dco.sh 
+  226  bash dco.sh 
+  227  vim dco.sh 
+  228  bash dco.sh 
+  229  vim dco.sh 
+  230  bash dco.sh 
+  231  vim dco.sh 
+  232  bash dco.sh 
+  233  vim dco.sh 
+  234  bash dco.sh 
+  235  vim dco.sh 
+  236  bash dco.sh 
+  237  vim dco.sh 
+  238  bash dco.sh 
+  239  vim dco.sh 
+  240  bash dco.sh 
+  241  ll
+  242  vim forloop.sh 
+  243  bash forloop.sh 
+  244  vim forloop.sh 
+  245  bash forloop.sh 
+  246  vim forloop.sh 
+  247  echo $a
+  248  a=10
+  249  echo $a
+  250  a=20
+  251  echo $a
+  252  a readonly
+  253  readonly a
+  254  a=10
+  255  unset a
+  256  echo $a
+  257  a=10
+  258  b=10
+  259  echo $b
+  260  unset b
+  261  echo $b
+  262  echo $ps1
+  263  ps1
+  264  echo $PS1
+  265  cat /home/ec2-user/.bashrc 
+  266  man test
+  267  echo $((1<<4))
+  268  echo $((255&7))
+  269  echo $((255 & 7))
+  270  echo $((255 & 256))
+  271  echo $((255 & 3))
+  272  echo $((255 & 33))
+  273  echo $((255 & 250))
+  274  echo $((255 & 256))
+  275  echo $((255 & 255))
+  276  man test
+  277  df -h
+  278  cd /opt/script/
+  279  ls
+  280  cd /opt/script/
+  281  ll
+  282  vim inputfromuser.sh
+  283  bash inputfromuser.sh 
+  284  vim inputfromuser.sh
+  285  bash inputfromuser.sh 
+  286  vim inputfromuser.sh
+  287  bash inputfromuser.sh 
+  288  vim Operator.sh
+  289  bash Operator.sh 
+  290  git push -u origin master
+  291  cd /opt/
+  292  cd script/
+  293  ll
+  294  var=((10**2))
+  295  var=$((10**2))
+  296  echo $var
+  297  var=$((10*2))
+  298  echo $var
+  299  var=$((10***2))
+  300  var=$((10**2))
+  301  echo $var
+  302  var=$((10++2))
+  303  echo $var
+  304  var=$((10+12))
+  305  echo $var
+  306  ll
+  307  vim Operator.sh 
+  308  bash Operator.sh 
+  309  vim Operator.sh 
+  310  bash Operator.sh 
+  311  echo 10^2 | bc
+  312  yum install bc
+  313  echo 10^2 | bc
+  314  echo 100^2 | bc
+  315  vim Operator.sh 
+  316  bash Operator.sh 
+  317  vim Operator.sh 
+  318  bash Operator.sh 
+  319  vim Operator.sh 
+  320  bash Operator.sh 
+  321  vim Operator.sh 
+  322  bash Operator.sh 
+  323  vim Operator.sh 
+  324  bash Operator.sh 
+  325  vim Operator.sh 
+  326  bash Operator.sh 
+  327  vim Operator.sh 
+  328  bash Operator.sh 
+  329  vim Operator.sh 
+  330  bash Operator.sh 
+  331  vim Operator.sh 
+  332  bash Operator.sh 
+  333  vim Operator.sh 
+  334  bash Operator.sh 
+  335  vim Operator.sh 
+  336  bash Operator.sh 
+  337  echo 100^2 | bc
+  338  bash Operator.sh 
+  339  vim Operator.sh 
+  340  bash Operator.sh 
+  341  echo $((10+2)) && $((10+22)
+  342  echo "$((10+2)) && $((10+22)"
+  343  vim Operator.sh 
+  344  bash Operator.sh 
+  345  vim Operator.sh 
+  346  bash Operator.sh 
+  347  vim Operator.sh 
+  348  bash Operator.sh 
+  349  bash Operator.sh datta belkar
+  350  bash Operator.sh datta be
+  351  vim Operator.sh 
+  352  bash Operator.sh datta be
+  353  vim Operator.sh 
+  354  bash Operator.sh datta be
+  355  bash Operator.sh datta belkar
+  356  vim Operator.sh 
+  357  bash Operator.sh datta belkar
+  358  bash Operator.sh datta belk
+  359  bash Operator.sh datta belkar
+  360  vim Operator.sh 
+  361  bash Operator.sh datta belkar
+  362  vim Operator.sh 
+  363  bash Operator.sh datta belkar
+  364  bash Operator.sh datta belk
+  365  bash Operator.sh data belk
+  366  df -h
+  367  cd /opt/script/
+  368  vim Operator.sh 
+  369  cd /opt/script/
+  370  ll
+  371  cd /opt/script/
+  372  ll
+  373  vim Operator.sh 
+  374  bash Operator.sh datta belkar
+  375  vim Operator.sh 
+  376  ll 
+  377  ll -a
+  378  rm -rf 
+  379  whereis rm
+  380  cat /usr/bin/rm
+  381  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+  382  cd /opt/script/
+  383  cd ..
+  384  git push -u origin master
+  385  cd script/
+  386  ll
+  387  echo $((122&3))
+  388  echo $((122&23))
+  389  a=$(( a&b ))
+  390  echo $a
+  391  a=$(( a&z ))
+  392  echo $a
+  393  a=$(( h&z ))
+  394  echo $a
+  395  openssl rand -base64 48 
+  396  openssl rand -base6
+  397  openssl rand -base64
+  398  openssl rand -base64 24
+  399  cd /opt/script/
+  400  ll
+  401  vim filetestoperator.sh
+  402  bash filetestoperator.sh /opt/script/test.txt 
+  403  cd /etc/
+  404  ll -a
+  405  cd /opt/script/
+  406  ll
+  407  vim filetestoperator.sh 
+  408  bash filetestoperator.sh /opt/script
+  409  vim filetestoperator.sh 
+  410  bash filetestoperator.sh /opt/script
+  411  bash filetestoperator.sh /opt/script/test.txt 
+  412  vim filetestoperator.sh 
+  413  bash filetestoperator.sh /opt/script/test.txt 
+  414  bash filetestoperator.sh /opt/script/
+  415  ll /etc/
+  416  ll
+  417  bash filetestoperator.sh /etc/yum.conf 
+  418  vim filetestoperator.sh 
+  419  bash filetestoperator.sh /etc/yum.conf 
+  420  vim filetestoperator.sh 
+  421  bash filetestoperator.sh /etc/yum.conf 
+  422  ll
+  423  chmod 444 test.txt 
+  424  ll
+  425  bash filetestoperator.sh /opt/script/test.txt 
+  426  chmod 774 test.txt 
+  427  bash filetestoperator.sh /opt/script/test.txt 
+  428  vim filetestoperator.sh 
+  429  bash filetestoperator.sh /opt/script/test.txt 
+  430  tocuh abc
+  431  touch abc
+  432  bash filetestoperator.sh /opt/script/abc 
+  433  vim filetestoperator.sh 
+  434  bash filetestoperator.sh /opt/script/abc 
+  435  ll /opt/script/abc
+  436  bash filetestoperator.sh /opt/script/test.txt 
+  437  ll
+  438  bash filetestoperator.sh /opt/script/ifthen.sh 
+  439  cd /opt/script/
+  440  vim Operator.sh 
+  441  ll
+  442  vim filetestoperator.sh
+  443  ll
+  444  bash filetestoperator.sh test.txt 
+  445  bash filetestoperator.sh for.txt 
+  446  vim Operator.sh 
+  447  ll -a
+  448  rm -rf .Operator.sh.swp
+  449  bash Operator.sh
+  450  vim Operator.sh 
+  451  bash Operator.sh
+  452  vim Operator.sh 
+  453  bash Operator.sh
+  454  vim incresenum.sh
+  455  bash incresenum.sh 
+  456  vim incresenum.sh
+  457  bash incresenum.sh 
+  458  vim incresenum.sh
+  459  bash incresenum.sh 
+  460  vim incresenum.sh
+  461  bash incresenum.sh 
+  462  vim incresenum.sh
+  463  bash incresenum.sh 
+  464  vim incresenum.sh
+  465  bash incresenum.sh 
+  466  vim incresenum.sh
+  467  poweroff 
+  468  cd /opt/script/
+  469  ll
+  470  vim incresenum.sh
+  471  bash incresenum.sh
+  472  vim incresenum.sh
+  473  bash incresenum.sh
+  474  vim incresenum.sh
+  475  bash incresenum.sh
+  476  ll
+  477  vim saferm.sh
+  478  bash saferm.sh test.txt 
+  479  vim saferm.sh
+  480  bash saferm.sh test.txt 
+  481  vim saferm.sh
+  482  bash saferm.sh test.txt 
+  483  vim saferm.sh
+  484  bash saferm.sh test.txt 
+  485  vim saferm.sh
+  486  bash saferm.sh test.txt 
+  487  ll
+  488  cd ..
+  489  ll
+  490  cat *
+  491  ll
+  492  cat whilelot.sh
+  493  ll
+  494  cat onboarding.sh
+  495  cd script/
+  496  ll
+  497  vim saferm.sh 
+  498  dirdate=$(date +"%m-%d-%Y")
+  499  echo $dirdate
+  500  mkdir -p /mnt/$dirdate
+  501  ll /mnt/
+  502  cd /mnt/today_Wed/
+  503  ll
+  504  cd -
+  505  ll
+  506  bash saferm.sh test.txt 
+  507  vim saferm.sh 
+  508  bash saferm.sh test.txt 
+  509  ll /mnt/07-15-2020/
+  510  vim saferm.sh 
+  511  rm -rf /mnt/07-15-2020/
+  512  bash saferm.sh test.txt 
+  513  ll /mnt/07-15-2020//mnt/07-15-2020/
+  514  ll /mnt/07-15-2020/
+  515  touch test.txt
+  516  bash -x saferm.sh test.txt 
+  517  ll /mnt/07-15-2020/
+  518  vim saferm.sh 
+  519  cd /opt/script/
+  520  ll -a
+  521  vim saferm.sh
+  522  rm -rf .saferm.sh.swp
+  523  ll
+  524  bash saferm.sh Jul/
+  525  cd Jul/
+  526  ll
+  527  cd ..
+  528  vim saferm.sh
+  529  ll
+  530  bash saferm.sh Jul
+  531  ll /mnt/07-15-2020/
+  532  vim saferm.sh
+  533  rm -rf /mnt/07-15-2020/
+  534  ll
+  535  ll 15/
+  536  bash saferm.sh 15
+  537  bash saferm.sh abc 
+  538  rm -rf /mnt/07-15-2020/
+  539  vim saferm.sh 
+  540  bash saferm.sh 2020
+  541  ll /mnt/
+  542  ll -a /mnt/
+  543  cd /mnt/
+  544  ll
+  545  ll -ltra
+  546  cd .
+  547  ll
+  548  ll -a
+  549  cd /opt/script/
+  550  ll
+  551  ll -a
+  552  vim saferm.sh 
+  553  dirdate=$(date +"%m-%d-%Y")
+  554  mkdir -p ./mnt/$dirdate
+  555  cd /mnt/
+  556  ll
+  557  ll -a
+  558  mkdir -p ./mnt/$dirdate
+  559  ll -a
+  560  cd /mnt/
+  561  ll
+  562  cd mnt/
+  563  ll
+  564  cd 07-15-2020/
+  565  ll
+  566  cd /mnt/
+  567  ll
+  568  rm -rf mnt/
+  569  ll -a
+  570  mkdir -p /mnt/.$dirdate
+  571  ll -a
+  572  ll
+  573  ll -a
+  574  rm -rf .07-15-2020
+  575  cd /opt/script/
+  576  vim saferm.sh 
+  577  ll
+  578  cd UTC/
+  579  ll
+  580  cd ..
+  581  ll
+  582  bash saferm.sh UTC
+  583  ll /mnt/
+  584  ll -a /mnt/
+  585  cd /mnt/.07-15-2020/
+  586  ll
+  587  cd /opt/script/
+  588  vim casesaferm.sh
+  589  cd /opt/script/
+  590  ll -a
+  591  vim casesaferm.sh
+  592  ll -a
+  593  rm -rf .casesaferm.sh.swp
+  594  rm -rf 09\:33\:2*
+  595  ll
+  596  cd mnt/
+  597  ll
+  598  cd 07-15-2020/
+  599  ll
+  600  cd 2020/
+  601  ll
+  602   pwd
+  603  cd /opt/script/
+  604  ll
+  605  rm -rf mnt/
+  606  ll
+  607  man getopts
+  608  vim casesaferm.sh
+  609  bash casesaferm.sh
+  610  vim casesaferm.sh
+  611  bash casesaferm.sh
+  612  vim casesaferm.sh
+  613  bash casesaferm.sh
+  614  vim casesaferm.sh
+  615  bash casesaferm.sh 
+  616  vim casesaferm.sh
+  617  cd ..
+  618  ll
+  619  cat lottry.sh
+  620  cat case.sh
+  621  bash case.sh
+  622  rpm -qa | grep httpd
+  623  systemctl status httpd
+  624  cd /opt/
+  625  ll
+  626  cat case.sh
+  627  vim case.sh
+  628  bash case.sh 
+  629  systemctl status httpd
+  630  systemctl start httpd
+  631  systemctl status httpd
+  632  systemctl stop httpd
+  633  vim case.sh 
+  634  yum remove httpd*
+  635  yum remove httpd
+  636  bash case.sh 
+  637  systemctl status httpd
+  638  bash case.sh 
+  639  systemctl status httpd
+  640  vim case.sh 
+  641  bash case.sh 
+  642  systemctl start httpd
+  643  systemctl status httpd
+  644  bash case.sh 
+  645  systemctl status http.service
+  646  vim case.sh 
+  647  bash case.sh 
+  648  cat case.sh 
+  649  cd /opt/script/
+  650  ll
+  651  vim casesaferm.sh
+  652  cd /opt/script/
+  653  ll
+  654  vim casesaferm.sh 
+  655  ll -a
+  656  rm -rf .casesaferm.sh.swp
+  657  vim casesaferm.sh 
+  658  bash casesaferm.sh 
+  659  vim casesaferm.sh 
+  660  bash casesaferm.sh 
+  661  bash casesaferm.sh datta
+  662  ll
+  663  vim casesaferm.sh 
+  664  vim casesaferm.sh /mnt/datta
+  665  bash casesaferm.sh /mnt/datta
+  666  ll /mnt/
+  667  vim casesaferm.sh 
+  668  bash casesaferm.sh /mnt/datta /tmp/
+  669  ll /tmp/
+  670  vim casesaferm.sh 
+  671  bash casesaferm.sh /mnt/datta /tmp/
+  672  ll /mnt/
+  673  vim casesaferm.sh 
+  674  bash casesaferm.sh /mnt/datta /tmp/
+  675  ll /mnt/
+  676  vim casesaferm.sh 
+  677  bash casesaferm.sh /mnt/datta
+  678  ll /mnt/
+  679  bash casesaferm.sh /mnt/datta_15-07-20y
+  680  bash casesaferm.sh /mnt/datta
+  681  ll /mnt/
+  682  bash casesaferm.sh /mnt/datta
+  683  vim casesaferm.sh 
+  684  bash casesaferm.sh /mnt/datta
+  685  vim casesaferm.sh 
+  686  bash casesaferm.sh /mnt/datta
+  687  vim casesaferm.sh 
+  688  bash casesaferm.sh /mnt/datta
+  689  ll /mnt/datta_15-07-20
+  690  vim casesaferm.sh 
+  691  bash casesaferm.sh /mnt/datta
+  692  vim casesaferm.sh 
+  693  bash casesaferm.sh /mnt/datta
+  694  vim casesaferm.sh 
+  695  bash casesaferm.sh /mnt/datta
+  696  ll /mnt/
+  697  ll
+  698  vim casesaferm.sh 
+  699  bash casesaferm.sh /mnt/datta
+  700  vim casesaferm.sh 
+  701  ll /mnt/
+  702  ls /mnt/datta_15-07-20
+  703  ls -l /mnt/datta_15-07-20
+  704  ls -d /mnt/datta_15-07-20
+  705  ls -d /mnt/datta
+  706  bash casesaferm.sh /mnt/datta
+  707  vim casesaferm.sh 
+  708  bash casesaferm.sh /mnt/datta
+  709  ll /mnt/
+  710  bash casesaferm.sh /mnt/datta
+  711  ll /mnt/
+  712  bash casesaferm.sh /mnt/datta1
+  713  ll /mnt/
+  714  vim casesaferm.sh 
+  715  bash casesaferm.sh /mnt/datta1
+  716  vim casesaferm.sh 
+  717  bash casesaferm.sh /mnt/datta1
+  718  vim casesaferm.sh 
+  719  bash casesaferm.sh /mnt/datta1
+  720  vim casesaferm.sh 
+  721  bash casesaferm.sh /mnt/datta1
+  722  bash casesaferm.sh /mnt/datta
+  723  vim casesaferm.sh 
+  724  bash casesaferm.sh /mnt/datta
+  725  ll
+  726  cd /opt/script/
+  727  ll
+  728  cat casesaferm.sh
+  729  vim function.sh
+  730  bash function.sh 
+  731  vim function.sh
+  732  bash function.sh 
+  733  bash function.sh df -h
+  734  bash function.sh "df -h"
+  735  bash function.sh free -g
+  736  bash function.sh "free -g"
+  737  free -g
+  738  free -m
+  739  cd /opt/script/
+  740  ll
+  741  vim function.sh 
+  742  bash function.sh free -g
+  743  bash function.sh "free -g"
+  744  bash function.sh "free -m"
+  745  bash function.sh "df -h"
+  746  bash function.sh "weclome user"
+  747  vim function.sh 
+  748  bash function.sh "weclome user"
+  749  bash function.sh weclome user
+  750  cd /opt/script/
+  751  vim clac.sh
+  752  bash clac.sh 1 2 sum
+  753  bash clac.sh 1 2
+  754  vim clac.sh 
+  755  bash clac.sh 1 2 sum
+  756  bash clac.sh 44 55 sum
+  757  vim clac.sh 
+  758  bash clac.sh 44 55 div
+  759  vim clac.sh 
+  760  bash clac.sh 44 55 div
+  761  bash clac.sh 44 55 mult
+  762  vim clac.sh 
+  763  bash clac.sh 44 55 mult
+  764  bash clac.sh 44 55 sub
+  765  bash clac.sh 44 55 su
+  766  ll
+  767  free -m
+  768  set $(free -m)
+  769  echo $1
+  770  echo $2
+  771  awk '{print $2}' free -m
+  772  awk '{print $2}'| free -m
+  773  free -m | awk '{print $2}'
+  774  free -m | awk '{print $2}' | egrep -v used
+  775  free -m | awk '{print $2}' | egrep -v used | egrep 0
+  776  free -m | awk '{print $2}' | egrep -v used | egrep -v 0
+  777  free -m | awk '{print $3}' | egrep -v used | egrep -v 0
+  778  egrep used free -m
+  779  free -m | egrep used
+  780  free -m | awk '{print $3}'
+  781  free -m | awk '{print $3}' | egrep -v free | egrep -v 0
+  782  free -m | awk '{print $3}' | egrep -v free 
+  783  free -m | awk '{print $3}' | egrep -v free | egrep -v 0
+  784  awk '/^Mem/ {print $3}' <(free -m)
+  785  free -m
+  786  df -h
+  787  awk '/^/dev/xvda2/ {print $5}' <(df -h)
+  788  awk '/^\/dev/xvda2/ {print $5}' <(df -h)
+  789  df -h /mnt/
+  790  awk '{print $5}' <df -h /mnt/
+  791  awk '{print $5}' <(df -h /mnt/)
+  792  awk '{print $5}' <(df -h /mnt/) | grep -v use
+  793  awk '{print $5}' <(df -h /mnt/) | grep -vi use
+  794  awk '{print $4}' <(df -h /mnt/) | grep -vi use
+  795  awk '{print $4}' <(df -h /mnt/) | grep -vi av
+  796  pwd
+  797  cd /opt/script/
+  798  ll
+  799  vim returninfunction.sh
+  800  free -g
+  801  awk '/^Mem/ {print $3}' <(free -m)
+  802  var=$(awk '/^Mem/ {print $3}' <(free -m))
+  803  echo $var
+  804  vim returninfunction.sh 
+  805  bash returninfunction.sh 
+  806  echo $?
+  807  vim returninfunction.sh 
+  808  bash returninfunction.sh 
+  809  echo $?
+  810  vim returninfunction.sh 
+  811  bash returninfunction.sh 
+  812  vim returninfunction.sh 
+  813  bash returninfunction.sh 
+  814  vim returninfunction.sh 
+  815  bash returninfunction.sh 
+  816  vim returninfunction.sh 
+  817  bash returninfunction.sh 
+  818  vim returninfunction.sh 
+  819  bash returninfunction.sh 
+  820  vim returninfunction.sh 
+  821  bash returninfunction.sh 
+  822  vim returninfunction.sh 
+  823  bash returninfunction.sh 
+  824  free -m
+  825  vim returninfunction.sh 
+  826  bash returninfunction.sh 
+  827  ll
+  828  df -h
+  829  mount -t
+  830  free -g
+  831  fdisk -l
+  832  fdisk /dev/xvdf 
+  833  fdisk -l
+  834  mount /dev/xvdf1 /mnt/
+  835  mkfs.ext4 /dev/xvdf1 
+  836  mount /dev/xvdf1 /mnt/
+  837  df -h
+  838  df -h /dev/xvdf1 
+  839  umount /mnt/
+  840  df -h
+  841  df -h /dev/xvdf1 
+  842  mount /dev/xvdf1 /mnt/
+  843  ll
+  844  df -h
+  845  df -h
+  846  cd /opt/script/
+  847  ll
+  848  ls
+  849  df -h
+  850  df -h /mnt/
+  851  cd /
+  852  ll
+  853  mkdir backup
+  854  umount /mnt/
+  855  df -h
+  856  mount /dev/xvdf1 /backup/
+  857  df -h
+  858  df -h /backup/
+  859  umount /backup/
+  860  df -h /backup/
+  861  umount /backup/
+  862  mount /dev/xvdf1 /backup/
+  863  df -h /backup/
+  864  awk '{print $1}' <(df -h /backup/)
+  865  awk '{print $1}' <(df -h /backup/) | egrep -v Filesystem
+  866  umount /backup/
+  867  awk '{print $1}' <(df -h /backup/) | egrep -v Filesystem
+  868  cd /opt/script/
+  869  vim mountdrive.sh
+  870  df -h
+  871  bash mountdrive.sh 
+  872  bash -x mountdrive.sh 
+  873  df -h
+  874  vim mountdrive.sh
+  875  bash -x mountdrive.sh 
+  876  df -h
+  877  umount /backup/
+  878  df -h
+  879  bash -x mountdrive.sh 
+  880  df -h
+  881  bash -x mountdrive.sh 
+  882  df -h
+  883  vim mountdrive.sh 
+  884  df -g
+  885  df -h
+  886  umount /backup/
+  887  df -h
+  888  bash -x mountdrive.sh 
+  889  df -h
+  890  vim mountdrive.sh 
+  891  mpstat -p ALL
+  892  mpstat -P ALL
+  893  mpstat -A
+  894  mpstat -A 0
+  895  mpstat -P 0
+  896  df -h
+  897  cd /var/log/
+  898  cd httpd/
+  899  ll
+  900  cat access_log 
+  901  cutg -d "-" "1" access_log 
+  902  cut -d "-" "1" access_log 
+  903  cd -
+  904  cd /opt/script/
+  905  vim state
+  906  cut -d " " "1" state 
+  907  cut -b 1 state 
+  908  cut -b 1,2 state 
+  909  cd /var/log/httpd/
+  910  ll
+  911  cut -b 1-8 access_log 
+  912  cut -b 1-16 access_log 
+  913  cut -b 1-15 access_log 
+  914  cut -d - 15 access_log 
+  915  cut -b -15 access_log 
+  916  cut -c -5 access_log 
+  917  cut -c 1- access_log 
+  918  cut -f 1 access_log 
+  919  cut -f 2 access_log 
+  920  cut -f 3 access_log 
+  921  cd /opt/script/
+  922  ll 
+  923  cut -f 1 state 
+  924  cut -f21 state 
+  925  cut -f 2 state 
+  926  cut -d " " -f 2 state 
+  927  cut -d " " -f 1 state 
+  928  cut -d "-" -f 1 /var/log/httpd/access_log 
+  929  cut -d "-" -f 2 /var/log/httpd/access_log 
+  930  cat /var/log/httpd/access_log 
+  931  cut ".1" -f 1 /var/log/httpd/access_log 
+  932  cut "]" -f 2 /var/log/httpd/access_log 
+  933  cut -d "]" -f 2 /var/log/httpd/access_log 
+  934  cut -d ".1" -f 1 /var/log/httpd/access_log 
+  935  cut -d "." -f 1 /var/log/httpd/access_log 
+  936  cut -d "]" -f 1 /var/log/httpd/access_log 
+  937  cut -d "]" -f 2 /var/log/httpd/access_log 
+  938  cut -d "]" -f 3 /var/log/httpd/access_log 
+  939  cut -d "]" -f 4 /var/log/httpd/access_log 
+  940  cut -d "]" -f 2 /var/log/httpd/access_log 
+  941  cd /mnt/
+  942  ll
+  943   firewall-cmd --add-service http --permanent
+  944  uname -a
+  945  cat /etc/redhat-release 
+  946  sestatus 
+  947  vim /etc/selinux/
+  948  vim /etc/selinux
+  949  setsebool -P httpd_can_network_connect on
+  950  dnf --enablerepo=PowerTools install graphviz-gd
+  951  vi /etc/selinux/config
+  952  systemctl stop firewalld
+  953  yum install xinetd openssl python epel-release -y
+  954  yum install xinetd openssl
+  955  yum install epel-release -y
+  956  cd /tmp/
+  957  ll
+  958  wget http://54.237.97.11/winsrv/check_mk/agents/check_mk_agent.netbsd
+  959  ll
+  960  rpm -i check_mk_agent.netbsd 
+  961  cd /var/log/httpd/
+  962  ls
+  963  cat access_log 
+  964  cur -d "-" -f 1 access_log 
+  965  cut -d "-" -f 1 access_log 
+  966  cut -d "-" -f 1 access_log | sort -r 
+  967  cut -d "-" -f 1 access_log | sort -r | uniq
+  968  cut -d "-" -f 1 access_log | sort -r | uniq -r
+  969  cut -d "-" -f 1 access_log | sort -r | uniq -c
+  970  cut -d "-" -f 1 access_log | sort -r | uniq -c 
+  971  cat access_log 
+  972  cut -d ":" -f 1 access_log 
+  973  cut -d ":" -f 1 access_log | grep -v [
+  974  cut -d ":" -f 1 access_log | grep -v "["
+  975  cut -d ":" -f 1 access_log | cut -d "[" -f 2 access_log 
+  976  cut -d ":" -f 1 access_log | cut -d "[" -f 1 access_log 
+  977  cut -d ":" -f 1 access_log | cut -d "[" -f 1-2 access_log 
+  978  cut -d ":" -f 1 access_log | cut -d "[" -c 1 access_log 
+  979  cut -d ":" -f 1 access_log | cut  -f -4 access_log 
+  980  cut -f -4 access_log 
+  981  cut -f -1 access_log 
+  982  cut -d ":" -f 1,3 access_log 
+  983  cut -f 1,3 access_log --complement
+  984  history | cut -c8- | sort | uniq -c | sort -rn | head 
+  985  cat access_log | cut -c8- | sort | uniq -c | sort -rn | head
+  986  cat access_log | cut -c15- | sort | uniq -c | sort -rn | head
+  987  cat access_log | cut -c1- | sort | uniq -c | sort -rn | head
+  988  df -h
+  989  pwd
+  990  cd /var/log/
+  991  cd httpd/
+  992  ll
+  993  cd /tmp/
+  994  ll
+  995  chmod 777 check_mk_agent.netbsd
+  996  ll
+  997  ./check_mk_agent.netbsd 
+  998  echo $?
+  999  ll /etc/init.d/
+ 1000  echo (root,17648,1248,0.0) sed -e 1d -e s/ *\([^ ]*\) *\([^ ]*\) *\([^ ]*\) *\([^ ]*\) */(\1,\2,\3,\4) 
+ 1001  cd /var/log/
+ 1002  ll
+ 1003  ls
+ 1004  top
+ 1005  egrep ^load w
+ 1006  egrep ^load | w
+ 1007  w | egrep ^load
+ 1008  w | egrep -i average
+ 1009  w | egrep -i average | awk '^load {print $1}'
+ 1010  w | egrep -i average | awk '{print $1}'
+ 1011  w | egrep -i average | awk '{print $10}'
+ 1012  w | egrep -i average | awk '{print $9}'
+ 1013  w | egrep -i average | cut -d ":" -f 1
+ 1014  w | egrep -i average | cut -d ":" -f 2
+ 1015  w | egrep -i average | cut -d ":" -f 4
+ 1016  w | egrep -i average | cut -d ":" -f 3
+ 1017  w | egrep -i average | cut -d ":" -f 2
+ 1018  w
+ 1019  w | egrep -i average | cut -d ":" -f 5
+ 1020  w | egrep -i average | cut -d ":" -f 4,5
+ 1021  w | egrep -i average | cut -d ":" -f 4,5 | grep -v 28 
+ 1022  w | egrep -i average | cut -d ":" -f 4,5 | awk '{print $3}'
+ 1023  w | egrep -i average | cut -d ":" -f 4,5 | awk '{print $4}'
+ 1024  w | egrep -i average | cut -d ":" -f 4,5 | awk '{print $4, $5 ,$6}'
+ 1025  w | egrep -i average | cut -d ":" -f 4,5 | awk '{print $4, $5 ,$6, $7}'
+ 1026  w | egrep -i average | cut -d ":" -f 4,5 | awk '{print $4, $5-$7}'
+ 1027  history 
+ 1028  cd /home/ec2-user/
+ 1029  ll -a
+ 1030  cat .bash_history
+ 1031  cd ..
+ 1032  ll
+ 1033  history >> /opt/script/history_17-07-2020

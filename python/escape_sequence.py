@@ -1,0 +1,5 @@
+print("lineA\nlineB")
+print("name\tDatta")
+print("datt\bta")
+print("I'm belkar")
+print("This is blackslash \\")
